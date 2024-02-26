@@ -1,0 +1,127 @@
+@import url('httpsfonts.googleapis.comcss2family=Poppinswght@300;400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1)), url(./picture/spring.png) no-repeat center / cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#weather{
+    width: 350px;
+    border-radius: 10px;
+    padding: 30px 20px;
+    background: url(./picture/spring.png) no-repeat center / cover;
+}
+
+.search{
+    width: 100%;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 0 15px 0 15px;
+    box-shadow: 0 5px 4px rgba(0, 0, 0, 0.2);
+    transition: all 0.4s ease;
+    font-size: 19px;
+}
+
+.search:focus{
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 15px 0 15px 0;
+}
+
+.content{
+    text-align: center;
+    color: white;
+    margin: 40px 0;
+    transition: 0.4s;
+}
+
+.capital{
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.time{
+    margin: 15px 0 20px 0;
+    font-size: 15px;
+}
+
+.temperature{
+    font-size: 65px;
+    text-shadow: 4px 4px rgba(0, 0, 0, 0.7);
+    background: rgba(255, 255, 255, 0.4);
+    box-shadow: 4px 4px rgba(0, 0, 0, 0.5);
+    border: none;
+    border-radius: 10px;
+    margin: 0 30px;
+    padding: 20px;
+}
+
+.short-desc{
+    font-size: 40px;
+    font-weight: 600px;
+    text-shadow: 3px 3px rgba(0, 0, 0, 0.4);
+    margin: 30px;
+}
+
+.more-desc{
+    display: flex;
+    justify-content: space-between;
+}
+
+.more-desc div{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+
+.more-desc div i{
+    font-size: 25px;
+    margin: 10px 0;
+}
+
+/* .hide{
+    visibility: hidden;
+    opacity: 0;
+} */
+
+.spring{
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1)), url(./picture/spring.png) no-repeat center / cover;
+}
+
+.spring #weather{
+    background: url(./picture/spring.png) no-repeat center / cover;
+}
+
+.summer{
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1)), url(./picture/summer.png) no-repeat center / cover;
+}
+
+.summer #weather{
+    background: url(./picture/summer.png) no-repeat center / cover;
+}
+
+.autumn{
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1)), url(./picture/autumn.png) no-repeat center / cover;
+}
+
+.autumn #weather{
+    background: url(./picture/autumn.png) no-repeat center / cover;
+}
+
+.winter{
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1)), url(./picture/winter.png) no-repeat center / cover;
+}
+
+.winter #weather{
+    background: url(./picture/winter.png) no-repeat center / cover;
+}
